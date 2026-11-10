@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.local
+*.env
+!*.env.example
+
+# Local SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Scratch / Temporary directories
+.manus/
+.work/
+.claude/
+.impeccable/
+
+# The payment gateway is maintained as a separate repository
+/YouPI-PG/
+
+# Testing & Coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+coverage.json
+.cache/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+sqlite.db
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Node / Frontend (if built here in future)
+node_modules/
+frontend/dist/
+backend/.venv/
+.next/
+out/
+
+# Local demo data and runtime state
+/data/*.json
+/backend/data/*.json
+

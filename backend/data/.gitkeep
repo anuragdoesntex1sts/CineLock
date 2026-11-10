@@ -1,0 +1,2 @@
+# This directory stores JSON data files for file-based persistence
+# Files are created at runtime and are gitignored
